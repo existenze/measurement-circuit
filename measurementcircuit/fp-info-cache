@@ -1,4 +1,4 @@
-26718904846344335
+26735099684267834
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97257,27 +97257,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-Senior_Design
-CONN2_2604-3102_WAG
-
-2604-3102 
-0
-4
-4
-Senior_Design
-CONN6_2604-3106_WAG
-
-2604-3106 
-0
-12
-12
-Senior_Design
-CONN10_2601-3110_WAG
-
-2601-3110 
-0
-20
-20
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -106364,3 +106343,31 @@ Varistor VF
 0
 2
 2
+WAGO_250-108/000-006_connector_BLUE.pretty
+CONN8_250-108&slash_000-006_WAG
+
+250-108/000-006 
+0
+8
+8
+WAGO_250-108/000-012_connector_ORANGE.pretty
+CONN8_250-108&slash_000-012_WAG
+
+250-108/000-012 
+0
+8
+8
+WAGO_250-116/000-012_connector_ORANGE.pretty
+CONN16_250-116&slash_000-012_WAG
+
+250-116/000-012 
+0
+16
+16
+Wago - 2604-3302_2_pole_connector
+CONN2_2604-3302_WAG
+
+2604-3302 
+0
+4
+4
