@@ -480,11 +480,21 @@
         "clearance": 0.25,
         "name": "HighCurrent",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "via_diameter": 0.8,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Wider Trace",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
+        "via_diameter": 0.2,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -494,7 +504,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "Wider Trace",
         "pattern": "*"
       }
     ]
@@ -504,10 +514,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../Desktop/measurement_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "measurementcircuit.step",
       "svg": "",
       "vrml": ""
     },
