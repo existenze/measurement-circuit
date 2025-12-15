@@ -1682,6 +1682,17 @@
 			(uuid "5922c20c-c8df-4432-a09e-ca8eb04299d7")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/footprints:cad/250_116_000_012/250-116_000-012.stp"
+			(offset
+				(xyz -2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
@@ -14557,7 +14568,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 90)
+			)
+		)
+		(model "${KIPRJMOD}/footprints:cad/ul_250-108-000-006(1)/CadenasModel/250-108_000-006.stp"
+			(offset
+				(xyz 26 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -90)
 			)
 		)
 	)
