@@ -11042,7 +11042,7 @@
 			(uuid "5f32bda8-ac27-4c83-b0e6-a3181f918ae6")
 		)
 		(embedded_fonts no)
-		(model "/Users/danielself/Downloads/ul_2604-3302(1)/CadenasModel/2604-3302.stp"
+		(model "${KIPRJMOD}/footprints:cad/ul_2604-3302(1)/CadenasModel/2604-3302.stp"
 			(offset
 				(xyz 8 2 0)
 			)
