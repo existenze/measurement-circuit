@@ -6492,6 +6492,121 @@
 			)
 		)
 	)
+	(footprint "10pF_Capacitor_Custom:C_Disc_Radial_P5.90mm_W4.3mm_L11.4mm_Placeholder"
+		(layer "F.Cu")
+		(uuid "50896227-ea1d-4636-9629-325062370e77")
+		(at -171 -58 -90)
+		(descr "Placeholder: Cornell Dubilier CD17 series style mica cap, THT, 5.90mm pitch, body ~11.4x4.3mm")
+		(tags "capacitor THT radial mica placeholder P5.90mm")
+		(property "Reference" "C?"
+			(at 2.95 -3.2 90)
+			(layer "F.SilkS")
+			(uuid "403a106d-7baf-4fe4-b89e-16d3ec236a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 2.95 3.2 90)
+			(layer "F.Fab")
+			(uuid "95c75e2a-cde1-42a0-a6f1-2e85e53b9f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b54c83d2-660d-443f-a986-ed5b64e30787")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "472dda39-7adb-4f1b-b4ef-e37dd3fe4adb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_rect
+			(start -2.95 -2.35)
+			(end 8.85 2.35)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "88a2935e-530f-4a1e-ac11-aab27facea7b")
+		)
+		(fp_rect
+			(start -3.45 -2.85)
+			(end 9.35 2.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "31ae51c2-f891-46ec-ac6e-c3303a8b9119")
+		)
+		(fp_rect
+			(start -2.75 -2.15)
+			(end 8.65 2.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6cc34573-bcc1-417c-a3a1-e6a1d6a68135")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.95 0 90)
+			(layer "F.Fab")
+			(uuid "34aa7e97-688c-4d15-87f0-8ac3e614f549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 270)
+			(size 1.8 1.8)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6cadebcc-5267-4cba-b32a-cd0ea452493e")
+		)
+		(pad "2" thru_hole circle
+			(at 5.9 0 270)
+			(size 1.8 1.8)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "447447cd-45c8-41cd-98a3-f8a10b884ea3")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
 		(layer "F.Cu")
 		(uuid "527726e2-f1b1-4cd9-b2f6-8fb1eeb9a9d5")
