@@ -23163,7 +23163,7 @@
 		(dnp no)
 		(uuid "69b474e5-4db5-448c-bd0f-3e1b79ad9aaf")
 		(property "Reference" "J70"
-			(at 358.1399 102.87 0)
+			(at 364.236 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
