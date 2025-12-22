@@ -1,52 +1,127 @@
 (footprint "C_Disc_Radial_P5.90mm_W4.3mm_L11.4mm_Placeholder"
-  (version 20211014)
-  (generator manual)
-  (descr "Placeholder: Cornell Dubilier CD17 series style mica cap, THT, 5.90mm pitch, body ~11.4x4.3mm")
-  (tags "capacitor THT radial mica placeholder P5.90mm")
-  (attr through_hole)
-
-  (fp_text reference "C?" (at 2.95 -3.2) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "10pF" (at 2.95 3.2) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "${REFERENCE}" (at 2.95 0) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.12)))
-  )
-
-  (pad "1" thru_hole circle
-    (at 0 0)
-    (size 1.8 1.8)
-    (drill 0.8)
-    (layers "*.Cu" "*.Mask")
-  )
-
-  (pad "2" thru_hole circle
-    (at 5.9 0)
-    (size 1.8 1.8)
-    (drill 0.8)
-    (layers "*.Cu" "*.Mask")
-  )
-
-  (fp_rect
-    (start -2.75 -2.15)
-    (end 8.65 2.15)
-    (layer "F.Fab")
-    (width 0.1)
-  )
-
-  (fp_rect
-    (start -2.95 -2.35)
-    (end 8.85 2.35)
-    (layer "F.SilkS")
-    (width 0.12)
-  )
-
-  (fp_rect
-    (start -3.45 -2.85)
-    (end 9.35 2.85)
-    (layer "F.CrtYd")
-    (width 0.05)
-  )
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Placeholder: Cornell Dubilier CD17 series style mica cap, THT, 5.90mm pitch, body ~11.4x4.3mm")
+	(tags "capacitor THT radial mica placeholder P5.90mm")
+	(property "Reference" "C2"
+		(at 2.95 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "2e01137d-b375-456b-94f5-c9d5464c7ca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10pF"
+		(at 2.95 3.2 0)
+		(layer "F.Fab")
+		(uuid "36f107a3-375a-4a3a-949a-94f72f8e71d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52a8d0a5-f06a-4b8e-9574-98a770108605")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7f4f301-c4aa-4e93-81c7-e7b9098f8a2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.95 -2.35)
+		(end 8.85 2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "115b429b-4598-40b4-af08-29e8635abc7a")
+	)
+	(fp_rect
+		(start -3.45 -2.85)
+		(end 9.35 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2de59bf-e3ea-4c16-83ee-1d6889731553")
+	)
+	(fp_rect
+		(start -2.75 -2.15)
+		(end 8.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74922a95-2603-4f41-8040-cefe1901a849")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.95 0 0)
+		(layer "F.Fab")
+		(uuid "58b918cb-d49f-4620-baca-6222560f1606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae69af01-02d2-482e-8afd-7722d85a14f1")
+	)
+	(pad "2" thru_hole circle
+		(at 5.9 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "834f0b78-5378-4956-8ec2-092d1eeb31eb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/footprcad/Custom_10pF_Capacitor/CDV30FH392JO3F.STEP"
+		(offset
+			(xyz 3 0 4)
+		)
+		(scale
+			(xyz 0.5 0.3 0.2)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
